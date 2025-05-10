@@ -2,8 +2,6 @@ const express = require('express');
 const router = express.Router();
 const SuperAdmin = require('../models/SuperAdmin');
 const Master = require('../models/Master');
-const { google } = require('googleapis');
-const { exec } = require('child_process');
 const fs = require('fs');
 require('dotenv').config();
 
